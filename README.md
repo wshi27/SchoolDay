@@ -1,6 +1,6 @@
 # SchoolDay
-Server-Client based model simulating operations of a school day during Covid-19
-All personnels are clients. Each time a new client sends a request the Server creates a new thread to service that client. 
+Server-Client based model simulating operations of a school day during Covid-19/n
+All personnels are clients. Each time a new client sends a request the Server creates a new thread to service that client. /n
 Each thread executes command only from that client. It queues the requests if multiple requests comes in at once. 
 This model simulates the following school day :
 20 students fill out Covid Form and go to school.
